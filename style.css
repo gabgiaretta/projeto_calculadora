@@ -1,0 +1,111 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #3f3f50;
+  padding: 0;
+  margin: 0 auto;
+  user-select: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btnGroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 27px;
+  width: 441px;
+  height: 573px;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  margin-right: 45px;
+  margin-left: 45px;
+  margin-top: 29px;
+}
+
+#btnGroup button {
+  font-size: 64px;
+  color: #ffffff;
+  background-color: #27293a;
+  border-width: 1px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #fafafa;
+  width: 90px;
+  height: 89px;
+  line-height: 58.09px;
+  text-align: center;
+}
+#btnGroup .difButton {
+  color: #46beb3;
+}
+
+#btnGroup .difButton2 {
+  color: #46beb3;
+  font-size: 48px;
+}
+
+#btnGroup .Clear {
+  color: #46beb3;
+  width: 207px;
+  height: 89px;
+  grid-column: span 2;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+#btnGroup .equalButton {
+  color: #46beb3;
+  width: 324px;
+  height: 89px;
+  grid-column: span 3;
+}
+
+.calculator {
+  background-color: #27293a;
+  width: 531px;
+  height: 845px;
+  margin: 89px, 454px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.painel {
+  width: 441px;
+  height: 133px;
+  margin-top: 55px;
+  margin-left: 45px;
+  border-style: solid;
+  border-color: #fafafa4d;
+  border-width: 1px;
+  border-radius: 10px;
+  text-align: right;
+  align-content: center;
+  overflow: hidden;
+}
+.result {
+  color: aliceblue;
+  font-size: 64px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 16px;
+}
