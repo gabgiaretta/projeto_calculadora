@@ -1,6 +1,7 @@
 # Projeto calculadora
 
 Projeto desenvolvido para fins de estudo em HTML e CSS <br>
+O projeto se baseia no uso de uma calculadora simples<br>
 
 ## Contato<br>
 
